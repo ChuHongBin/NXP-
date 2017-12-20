@@ -476,17 +476,13 @@ namespace Camerasimulation
                             new Point(x * PixelSize.Width, y * PixelSize.Height),
                             PixelSize));
                 }
-            }
-            for (int x = 1; x <=1 ; x++)
-            {
-                g.DrawLine(new Pen(Brushes.Blue), new Point(0, 10*(60-tempImageProc.normline)+x), new Point(80 * 10, 10*(60-tempImageProc.normline)+x));
-            }
+            }          
             label_CarRodeType.Text = "赛道类型：" + tempImageProc.RodeType.ToString();
             label_CarBattVol.Text = "处理行:" + tempImageProc.MiddleLineCnt.ToString();
-            label_up_bias.Text = "标准行:" + tempImageProc.normline.ToString();
-            label_CarAimSpeed.Text = "中线偏差:" + tempImageProc.MiddleBias.ToString();
-            label_down_bias.Text = "是否加速:" + tempImageProc.steepup.ToString();
-            label_Middle_K.Text = "1_中线斜率:" + tempImageProc.Middle_K.ToString();
+//           label_up_bias.Text = "标准行:" + tempImageProc.normline.ToString();
+//            label_CarAimSpeed.Text = "中线偏差:" + tempImageProc.MiddleBias.ToString();
+//            label_down_bias.Text = "是否加速:" + tempImageProc.steepup.ToString();
+//            label_Middle_K.Text = "1_中线斜率:" + tempImageProc.Middle_K.ToString();
             StripStatusLabel1_codition.Text = "判断条件:" + tempImageProc.retcond.ToString();
 //            label_Left_K.Text = "2_中线斜率:" + tempImageProc.Left_K.ToString();
 //            label_Right_K.Text = "3_中线斜率:" + tempImageProc.Right_K.ToString();
