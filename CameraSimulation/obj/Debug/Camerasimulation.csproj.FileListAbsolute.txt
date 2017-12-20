@@ -1,0 +1,185 @@
+C:\Users\弁杓\Desktop\CameraSimulation\Camerasimulation\Camerasimulation\bin\Debug\Camerasimulation.exe.config
+C:\Users\弁杓\Desktop\CameraSimulation\Camerasimulation\bin\Debug\CameraSimulation.exe.config
+C:\Users\弁杓\Desktop\CameraSimulation\Camerasimulation\bin\Debug\CameraSimulation.exe
+C:\Users\弁杓\Desktop\CameraSimulation\Camerasimulation\bin\Debug\CameraSimulation.pdb
+C:\Users\弁杓\Desktop\CameraSimulation\Camerasimulation\bin\Debug\byn-ER\CameraSimulation.resources.dll
+C:\Users\弁杓\Desktop\CameraSimulation\Camerasimulation\obj\Debug\CameraSimulation.csprojResolveAssemblyReference.cache
+C:\Users\弁杓\Desktop\CameraSimulation\Camerasimulation\obj\Debug\Camerasimulation.FormMain.resources
+C:\Users\弁杓\Desktop\CameraSimulation\Camerasimulation\obj\Debug\CameraSimulation.Properties.ResourcesControlText.resources
+C:\Users\弁杓\Desktop\CameraSimulation\Camerasimulation\obj\Debug\CameraSimulation.Properties.ResourcesLabelText.resources
+C:\Users\弁杓\Desktop\CameraSimulation\Camerasimulation\obj\Debug\CameraSimulation.Properties.ResourceFileTitle.resources
+C:\Users\弁杓\Desktop\CameraSimulation\Camerasimulation\obj\Debug\Camerasimulation.FormMain.byn-ER.resources
+C:\Users\弁杓\Desktop\CameraSimulation\Camerasimulation\obj\Debug\CameraSimulation.csproj.GenerateResource.Cache
+C:\Users\弁杓\Desktop\CameraSimulation\Camerasimulation\obj\Debug\byn-ER\CameraSimulation.resources.dll
+C:\Users\弁杓\Desktop\CameraSimulation\Camerasimulation\obj\Debug\CameraSimulation.exe
+C:\Users\弁杓\Desktop\CameraSimulation\Camerasimulation\obj\Debug\CameraSimulation.pdb
+C:\Users\zbianbiaos\Desktop\CameraSimulation\Camerasimulation\bin\Debug\CameraSimulation.exe.config
+E:\CameraSimulation\Camerasimulation\bin\Debug\CameraSimulation.exe.config
+E:\飞思卡尔\上位机工程\Camerasimulation\bin\Debug\CameraSimulation.exe.config
+E:\飞思卡尔\上位机工程\Camerasimulation\bin\Debug\CameraSimulation.exe
+E:\飞思卡尔\上位机工程\Camerasimulation\bin\Debug\CameraSimulation.pdb
+E:\飞思卡尔\上位机工程\Camerasimulation\bin\Debug\byn-ER\CameraSimulation.resources.dll
+E:\飞思卡尔\上位机工程\Camerasimulation\obj\Debug\CameraSimulation.csprojResolveAssemblyReference.cache
+E:\飞思卡尔\上位机工程\Camerasimulation\obj\Debug\Camerasimulation.FormMain.resources
+E:\飞思卡尔\上位机工程\Camerasimulation\obj\Debug\CameraSimulation.Properties.Resources.resources
+E:\飞思卡尔\上位机工程\Camerasimulation\obj\Debug\CameraSimulation.Properties.ResourcesControlText.resources
+E:\飞思卡尔\上位机工程\Camerasimulation\obj\Debug\CameraSimulation.Properties.ResourcesLabelText.resources
+E:\飞思卡尔\上位机工程\Camerasimulation\obj\Debug\CameraSimulation.Properties.ResourceFileTitle.resources
+E:\飞思卡尔\上位机工程\Camerasimulation\obj\Debug\Camerasimulation.FormMain.byn-ER.resources
+E:\飞思卡尔\上位机工程\Camerasimulation\obj\Debug\CameraSimulation.csproj.GenerateResource.Cache
+E:\飞思卡尔\上位机工程\Camerasimulation\obj\Debug\byn-ER\CameraSimulation.resources.dll
+E:\飞思卡尔\上位机工程\Camerasimulation\obj\Debug\CameraSimulation.exe
+E:\飞思卡尔\上位机工程\Camerasimulation\obj\Debug\CameraSimulation.pdb
+E:\飞思卡尔\CameraSimulation\Camerasimulation\bin\Debug\CameraSimulation.exe.config
+E:\飞思卡尔\CameraSimulation\Camerasimulation\obj\Debug\CameraSimulation.exe
+E:\飞思卡尔\CameraSimulation\Camerasimulation\obj\Debug\CameraSimulation.pdb
+E:\飞思卡尔\CameraSimulation\Camerasimulation\bin\Debug\CameraSimulation.exe
+E:\飞思卡尔\CameraSimulation\Camerasimulation\bin\Debug\CameraSimulation.pdb
+E:\飞思卡尔\CameraSimulation\Camerasimulation\bin\Debug\byn-ER\CameraSimulation.resources.dll
+E:\飞思卡尔\CameraSimulation\Camerasimulation\obj\Debug\CameraSimulation.csprojResolveAssemblyReference.cache
+E:\飞思卡尔\CameraSimulation\Camerasimulation\obj\Debug\Camerasimulation.FormMain.resources
+E:\飞思卡尔\CameraSimulation\Camerasimulation\obj\Debug\CameraSimulation.Properties.Resources.resources
+E:\飞思卡尔\CameraSimulation\Camerasimulation\obj\Debug\CameraSimulation.Properties.ResourcesControlText.resources
+E:\飞思卡尔\CameraSimulation\Camerasimulation\obj\Debug\CameraSimulation.Properties.ResourcesLabelText.resources
+E:\飞思卡尔\CameraSimulation\Camerasimulation\obj\Debug\CameraSimulation.Properties.ResourceFileTitle.resources
+E:\飞思卡尔\CameraSimulation\Camerasimulation\obj\Debug\Camerasimulation.FormMain.byn-ER.resources
+E:\飞思卡尔\CameraSimulation\Camerasimulation\obj\Debug\CameraSimulation.csproj.GenerateResource.Cache
+E:\飞思卡尔\CameraSimulation\Camerasimulation\obj\Debug\byn-ER\CameraSimulation.resources.dll
+C:\Users\褚洪宾\Desktop\CameraSimulation\Camerasimulation\bin\Debug\CameraSimulation.exe.config
+C:\Users\褚洪宾\Desktop\CameraSimulation\Camerasimulation\bin\Debug\CameraSimulation.exe
+C:\Users\褚洪宾\Desktop\CameraSimulation\Camerasimulation\bin\Debug\CameraSimulation.pdb
+C:\Users\褚洪宾\Desktop\CameraSimulation\Camerasimulation\bin\Debug\byn-ER\CameraSimulation.resources.dll
+C:\Users\褚洪宾\Desktop\CameraSimulation\Camerasimulation\obj\Debug\CameraSimulation.csprojResolveAssemblyReference.cache
+C:\Users\褚洪宾\Desktop\CameraSimulation\Camerasimulation\obj\Debug\Camerasimulation.FormMain.resources
+C:\Users\褚洪宾\Desktop\CameraSimulation\Camerasimulation\obj\Debug\CameraSimulation.Properties.Resources.resources
+C:\Users\褚洪宾\Desktop\CameraSimulation\Camerasimulation\obj\Debug\CameraSimulation.Properties.ResourcesControlText.resources
+C:\Users\褚洪宾\Desktop\CameraSimulation\Camerasimulation\obj\Debug\CameraSimulation.Properties.ResourcesLabelText.resources
+C:\Users\褚洪宾\Desktop\CameraSimulation\Camerasimulation\obj\Debug\CameraSimulation.Properties.ResourceFileTitle.resources
+C:\Users\褚洪宾\Desktop\CameraSimulation\Camerasimulation\obj\Debug\Camerasimulation.FormMain.byn-ER.resources
+C:\Users\褚洪宾\Desktop\CameraSimulation\Camerasimulation\obj\Debug\CameraSimulation.csproj.GenerateResource.Cache
+C:\Users\褚洪宾\Desktop\CameraSimulation\Camerasimulation\obj\Debug\byn-ER\CameraSimulation.resources.dll
+C:\Users\褚洪宾\Desktop\CameraSimulation\Camerasimulation\obj\Debug\CameraSimulation.exe
+C:\Users\褚洪宾\Desktop\CameraSimulation\Camerasimulation\obj\Debug\CameraSimulation.pdb
+C:\Users\褚洪宾\Desktop\上位机\Camerasimulation\bin\Debug\CameraSimulation.exe.config
+C:\Users\褚洪宾\Desktop\上位机\Camerasimulation\obj\Debug\CameraSimulation.exe
+C:\Users\褚洪宾\Desktop\上位机\Camerasimulation\obj\Debug\CameraSimulation.pdb
+C:\Users\褚洪宾\Desktop\上位机\Camerasimulation\bin\Debug\CameraSimulation.exe
+C:\Users\褚洪宾\Desktop\上位机\Camerasimulation\bin\Debug\CameraSimulation.pdb
+C:\Users\褚洪宾\Desktop\上位机\Camerasimulation\bin\Debug\byn-ER\CameraSimulation.resources.dll
+C:\Users\褚洪宾\Desktop\上位机\Camerasimulation\obj\Debug\CameraSimulation.csprojResolveAssemblyReference.cache
+C:\Users\褚洪宾\Desktop\上位机\Camerasimulation\obj\Debug\Camerasimulation.FormMain.resources
+C:\Users\褚洪宾\Desktop\上位机\Camerasimulation\obj\Debug\CameraSimulation.Properties.Resources.resources
+C:\Users\褚洪宾\Desktop\上位机\Camerasimulation\obj\Debug\CameraSimulation.Properties.ResourcesControlText.resources
+C:\Users\褚洪宾\Desktop\上位机\Camerasimulation\obj\Debug\CameraSimulation.Properties.ResourcesLabelText.resources
+C:\Users\褚洪宾\Desktop\上位机\Camerasimulation\obj\Debug\CameraSimulation.Properties.ResourceFileTitle.resources
+C:\Users\褚洪宾\Desktop\上位机\Camerasimulation\obj\Debug\Camerasimulation.FormMain.byn-ER.resources
+C:\Users\褚洪宾\Desktop\上位机\Camerasimulation\obj\Debug\CameraSimulation.csproj.GenerateResource.Cache
+C:\Users\褚洪宾\Desktop\上位机\Camerasimulation\obj\Debug\byn-ER\CameraSimulation.resources.dll
+C:\Users\褚洪宾\Desktop\上位机 (1)\Camerasimulation\bin\Debug\CameraSimulation.exe.config
+C:\Users\褚洪宾\Desktop\上位机 (1)\Camerasimulation\obj\Debug\CameraSimulation.exe
+C:\Users\褚洪宾\Desktop\上位机 (1)\Camerasimulation\obj\Debug\CameraSimulation.pdb
+C:\Users\褚洪宾\Desktop\上位机 (1)\Camerasimulation\obj\Debug\CameraSimulation.csprojResolveAssemblyReference.cache
+C:\Users\褚洪宾\Desktop\上位机 (1)\Camerasimulation\obj\Debug\Camerasimulation.FormMain.resources
+C:\Users\褚洪宾\Desktop\上位机 (1)\Camerasimulation\obj\Debug\CameraSimulation.Properties.Resources.resources
+C:\Users\褚洪宾\Desktop\上位机 (1)\Camerasimulation\obj\Debug\CameraSimulation.Properties.ResourcesControlText.resources
+C:\Users\褚洪宾\Desktop\上位机 (1)\Camerasimulation\obj\Debug\CameraSimulation.Properties.ResourcesLabelText.resources
+C:\Users\褚洪宾\Desktop\上位机 (1)\Camerasimulation\obj\Debug\CameraSimulation.Properties.ResourceFileTitle.resources
+C:\Users\褚洪宾\Desktop\上位机 (1)\Camerasimulation\obj\Debug\Camerasimulation.FormMain.byn-ER.resources
+C:\Users\褚洪宾\Desktop\上位机 (1)\Camerasimulation\obj\Debug\CameraSimulation.csproj.GenerateResource.Cache
+C:\Users\褚洪宾\Desktop\上位机 (1)\Camerasimulation\bin\Debug\CameraSimulation.exe
+C:\Users\褚洪宾\Desktop\上位机 (1)\Camerasimulation\bin\Debug\CameraSimulation.pdb
+C:\Users\褚洪宾\Desktop\上位机 (1)\Camerasimulation\bin\Debug\byn-ER\CameraSimulation.resources.dll
+C:\Users\褚洪宾\Desktop\上位机 (1)\Camerasimulation\obj\Debug\byn-ER\CameraSimulation.resources.dll
+C:\Users\褚洪宾\Desktop\上位机 4\Camerasimulation\bin\Debug\CameraSimulation.exe.config
+C:\Users\褚洪宾\Desktop\上位机 4\Camerasimulation\obj\Debug\CameraSimulation.exe
+C:\Users\褚洪宾\Desktop\上位机 4\Camerasimulation\obj\Debug\CameraSimulation.pdb
+C:\Users\褚洪宾\Desktop\上位机 4\Camerasimulation\bin\Debug\CameraSimulation.exe
+C:\Users\褚洪宾\Desktop\上位机 4\Camerasimulation\bin\Debug\CameraSimulation.pdb
+C:\Users\褚洪宾\Desktop\上位机 4\Camerasimulation\bin\Debug\byn-ER\CameraSimulation.resources.dll
+C:\Users\褚洪宾\Desktop\上位机 4\Camerasimulation\obj\Debug\CameraSimulation.csprojResolveAssemblyReference.cache
+C:\Users\褚洪宾\Desktop\上位机 4\Camerasimulation\obj\Debug\Camerasimulation.FormMain.resources
+C:\Users\褚洪宾\Desktop\上位机 4\Camerasimulation\obj\Debug\CameraSimulation.Properties.Resources.resources
+C:\Users\褚洪宾\Desktop\上位机 4\Camerasimulation\obj\Debug\CameraSimulation.Properties.ResourcesControlText.resources
+C:\Users\褚洪宾\Desktop\上位机 4\Camerasimulation\obj\Debug\CameraSimulation.Properties.ResourcesLabelText.resources
+C:\Users\褚洪宾\Desktop\上位机 4\Camerasimulation\obj\Debug\CameraSimulation.Properties.ResourceFileTitle.resources
+C:\Users\褚洪宾\Desktop\上位机 4\Camerasimulation\obj\Debug\Camerasimulation.FormMain.byn-ER.resources
+C:\Users\褚洪宾\Desktop\上位机 4\Camerasimulation\obj\Debug\CameraSimulation.csproj.GenerateResource.Cache
+C:\Users\褚洪宾\Desktop\上位机 4\Camerasimulation\obj\Debug\byn-ER\CameraSimulation.resources.dll
+D:\上位机备份\上位机 6.9\Camerasimulation\bin\Debug\CameraSimulation.exe.config
+D:\上位机备份\上位机 6.9\Camerasimulation\obj\Debug\CameraSimulation.exe
+D:\上位机备份\上位机 6.9\Camerasimulation\obj\Debug\CameraSimulation.pdb
+D:\上位机备份\上位机 6.9\Camerasimulation\bin\Debug\CameraSimulation.exe
+D:\上位机备份\上位机 6.9\Camerasimulation\bin\Debug\CameraSimulation.pdb
+D:\上位机备份\上位机 6.9\Camerasimulation\bin\Debug\byn-ER\CameraSimulation.resources.dll
+D:\上位机备份\上位机 6.9\Camerasimulation\obj\Debug\CameraSimulation.csprojResolveAssemblyReference.cache
+D:\上位机备份\上位机 6.9\Camerasimulation\obj\Debug\Camerasimulation.FormMain.resources
+D:\上位机备份\上位机 6.9\Camerasimulation\obj\Debug\CameraSimulation.Properties.Resources.resources
+D:\上位机备份\上位机 6.9\Camerasimulation\obj\Debug\CameraSimulation.Properties.ResourcesControlText.resources
+D:\上位机备份\上位机 6.9\Camerasimulation\obj\Debug\CameraSimulation.Properties.ResourcesLabelText.resources
+D:\上位机备份\上位机 6.9\Camerasimulation\obj\Debug\CameraSimulation.Properties.ResourceFileTitle.resources
+D:\上位机备份\上位机 6.9\Camerasimulation\obj\Debug\Camerasimulation.FormMain.byn-ER.resources
+D:\上位机备份\上位机 6.9\Camerasimulation\obj\Debug\CameraSimulation.csproj.GenerateResource.Cache
+D:\上位机备份\上位机 6.9\Camerasimulation\obj\Debug\byn-ER\CameraSimulation.resources.dll
+C:\Users\褚洪宾\Desktop\上位机 6.9\Camerasimulation\bin\Debug\CameraSimulation.exe.config
+C:\Users\褚洪宾\Desktop\上位机 6.9\Camerasimulation\obj\Debug\CameraSimulation.exe
+C:\Users\褚洪宾\Desktop\上位机 6.9\Camerasimulation\obj\Debug\CameraSimulation.pdb
+C:\Users\褚洪宾\Desktop\上位机 6.9\Camerasimulation\bin\Debug\CameraSimulation.exe
+C:\Users\褚洪宾\Desktop\上位机 6.9\Camerasimulation\bin\Debug\CameraSimulation.pdb
+C:\Users\褚洪宾\Desktop\上位机 6.9\Camerasimulation\bin\Debug\byn-ER\CameraSimulation.resources.dll
+C:\Users\褚洪宾\Desktop\上位机 6.9\Camerasimulation\obj\Debug\CameraSimulation.csprojResolveAssemblyReference.cache
+C:\Users\褚洪宾\Desktop\上位机 6.9\Camerasimulation\obj\Debug\Camerasimulation.FormMain.resources
+C:\Users\褚洪宾\Desktop\上位机 6.9\Camerasimulation\obj\Debug\CameraSimulation.Properties.Resources.resources
+C:\Users\褚洪宾\Desktop\上位机 6.9\Camerasimulation\obj\Debug\CameraSimulation.Properties.ResourcesControlText.resources
+C:\Users\褚洪宾\Desktop\上位机 6.9\Camerasimulation\obj\Debug\CameraSimulation.Properties.ResourcesLabelText.resources
+C:\Users\褚洪宾\Desktop\上位机 6.9\Camerasimulation\obj\Debug\CameraSimulation.Properties.ResourceFileTitle.resources
+C:\Users\褚洪宾\Desktop\上位机 6.9\Camerasimulation\obj\Debug\Camerasimulation.FormMain.byn-ER.resources
+C:\Users\褚洪宾\Desktop\上位机 6.9\Camerasimulation\obj\Debug\CameraSimulation.csproj.GenerateResource.Cache
+C:\Users\褚洪宾\Desktop\上位机 6.9\Camerasimulation\obj\Debug\byn-ER\CameraSimulation.resources.dll
+C:\Users\褚洪宾\Desktop\上位机 7.3\Camerasimulation\bin\Debug\CameraSimulation.exe.config
+C:\Users\褚洪宾\Desktop\上位机 7.3\Camerasimulation\obj\Debug\CameraSimulation.exe
+C:\Users\褚洪宾\Desktop\上位机 7.3\Camerasimulation\obj\Debug\CameraSimulation.pdb
+C:\Users\褚洪宾\Desktop\上位机 7.3\Camerasimulation\bin\Debug\CameraSimulation.exe
+C:\Users\褚洪宾\Desktop\上位机 7.3\Camerasimulation\bin\Debug\CameraSimulation.pdb
+C:\Users\褚洪宾\Desktop\上位机 7.3\Camerasimulation\bin\Debug\byn-ER\CameraSimulation.resources.dll
+C:\Users\褚洪宾\Desktop\上位机 7.3\Camerasimulation\obj\Debug\CameraSimulation.csprojResolveAssemblyReference.cache
+C:\Users\褚洪宾\Desktop\上位机 7.3\Camerasimulation\obj\Debug\Camerasimulation.FormMain.resources
+C:\Users\褚洪宾\Desktop\上位机 7.3\Camerasimulation\obj\Debug\CameraSimulation.Properties.Resources.resources
+C:\Users\褚洪宾\Desktop\上位机 7.3\Camerasimulation\obj\Debug\CameraSimulation.Properties.ResourcesControlText.resources
+C:\Users\褚洪宾\Desktop\上位机 7.3\Camerasimulation\obj\Debug\CameraSimulation.Properties.ResourcesLabelText.resources
+C:\Users\褚洪宾\Desktop\上位机 7.3\Camerasimulation\obj\Debug\CameraSimulation.Properties.ResourceFileTitle.resources
+C:\Users\褚洪宾\Desktop\上位机 7.3\Camerasimulation\obj\Debug\Camerasimulation.FormMain.byn-ER.resources
+C:\Users\褚洪宾\Desktop\上位机 7.3\Camerasimulation\obj\Debug\CameraSimulation.csproj.GenerateResource.Cache
+C:\Users\褚洪宾\Desktop\上位机 7.3\Camerasimulation\obj\Debug\byn-ER\CameraSimulation.resources.dll
+C:\Users\褚洪宾\Desktop\上位机 7.7\Camerasimulation\bin\Debug\CameraSimulation.exe.config
+C:\Users\褚洪宾\Desktop\上位机 7.7\Camerasimulation\obj\Debug\CameraSimulation.exe
+C:\Users\褚洪宾\Desktop\上位机 7.7\Camerasimulation\obj\Debug\CameraSimulation.pdb
+D:\上位机备份\上位机 7.7\Camerasimulation\bin\Debug\CameraSimulation.exe.config
+D:\上位机备份\上位机 7.7\Camerasimulation\obj\Debug\CameraSimulation.exe
+D:\上位机备份\上位机 7.7\Camerasimulation\obj\Debug\CameraSimulation.pdb
+D:\上位机备份\上位机 7.7\Camerasimulation\bin\Debug\CameraSimulation.exe
+D:\上位机备份\上位机 7.7\Camerasimulation\bin\Debug\CameraSimulation.pdb
+D:\上位机备份\上位机 7.7\Camerasimulation\bin\Debug\byn-ER\CameraSimulation.resources.dll
+D:\上位机备份\上位机 7.7\Camerasimulation\obj\Debug\CameraSimulation.csprojResolveAssemblyReference.cache
+D:\上位机备份\上位机 7.7\Camerasimulation\obj\Debug\Camerasimulation.FormMain.resources
+D:\上位机备份\上位机 7.7\Camerasimulation\obj\Debug\CameraSimulation.Properties.Resources.resources
+D:\上位机备份\上位机 7.7\Camerasimulation\obj\Debug\CameraSimulation.Properties.ResourcesControlText.resources
+D:\上位机备份\上位机 7.7\Camerasimulation\obj\Debug\CameraSimulation.Properties.ResourcesLabelText.resources
+D:\上位机备份\上位机 7.7\Camerasimulation\obj\Debug\CameraSimulation.Properties.ResourceFileTitle.resources
+D:\上位机备份\上位机 7.7\Camerasimulation\obj\Debug\Camerasimulation.FormMain.byn-ER.resources
+D:\上位机备份\上位机 7.7\Camerasimulation\obj\Debug\CameraSimulation.csproj.GenerateResource.Cache
+D:\上位机备份\上位机 7.7\Camerasimulation\obj\Debug\byn-ER\CameraSimulation.resources.dll
+C:\Users\褚洪宾\Desktop\上位机 7.7\Camerasimulation\bin\Debug\CameraSimulation.exe
+C:\Users\褚洪宾\Desktop\上位机 7.7\Camerasimulation\bin\Debug\CameraSimulation.pdb
+C:\Users\褚洪宾\Desktop\上位机 7.7\Camerasimulation\bin\Debug\byn-ER\CameraSimulation.resources.dll
+C:\Users\褚洪宾\Desktop\上位机 7.7\Camerasimulation\obj\Debug\CameraSimulation.csprojResolveAssemblyReference.cache
+C:\Users\褚洪宾\Desktop\上位机 7.7\Camerasimulation\obj\Debug\Camerasimulation.FormMain.resources
+C:\Users\褚洪宾\Desktop\上位机 7.7\Camerasimulation\obj\Debug\CameraSimulation.Properties.Resources.resources
+C:\Users\褚洪宾\Desktop\上位机 7.7\Camerasimulation\obj\Debug\CameraSimulation.Properties.ResourcesControlText.resources
+C:\Users\褚洪宾\Desktop\上位机 7.7\Camerasimulation\obj\Debug\CameraSimulation.Properties.ResourcesLabelText.resources
+C:\Users\褚洪宾\Desktop\上位机 7.7\Camerasimulation\obj\Debug\CameraSimulation.Properties.ResourceFileTitle.resources
+C:\Users\褚洪宾\Desktop\上位机 7.7\Camerasimulation\obj\Debug\Camerasimulation.FormMain.byn-ER.resources
+C:\Users\褚洪宾\Desktop\上位机 7.7\Camerasimulation\obj\Debug\CameraSimulation.csproj.GenerateResource.Cache
+C:\Users\褚洪宾\Desktop\上位机 7.7\Camerasimulation\obj\Debug\byn-ER\CameraSimulation.resources.dll
+C:\Users\褚洪宾\Desktop\上位机 7.13\Camerasimulation\bin\Debug\CameraSimulation.exe.config
+C:\Users\褚洪宾\Desktop\上位机 7.13\Camerasimulation\obj\Debug\CameraSimulation.exe
+C:\Users\褚洪宾\Desktop\上位机 7.13\Camerasimulation\obj\Debug\CameraSimulation.pdb
