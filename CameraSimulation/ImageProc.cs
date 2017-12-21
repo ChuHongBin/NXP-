@@ -13,7 +13,7 @@ namespace CameraSimulation
     class ImageProc
     {
 
-        const int16_t LINES_FIRSTCHECK_CNT = 6;
+        const int16_t LINES_PRIGUIDE = 5;
         const int16_t IMAGE_WIDTH = 80;
         const int16_t IMAGE_HEIGHT = 60;
 
@@ -139,12 +139,31 @@ namespace CameraSimulation
         //输出：【左边线 LeftLine[]】    【右边线RightLine[]】    【中线MiddleLine[]】
         // LeftLineCnt  RightLineCnt   MiddleLineCnt
         public void UpdateLines()
-        {
+        {   
+            int16_t [] Center =new int16_t [5];
+            int16_t center = 40;
+            int16_t tline = 0;
+            LeftLine = new int16_t [60];
+            RightLine = new int16_t [60];
+            MiddleLine = new int16_t[60];
+            //预处理
+            for (tline = 0; tline < LINES_PRIGUIDE; tline++)
+            {
+                Center[tline] = Guide_Center2Board(tline, center);            
+            }
+            //预判断
+            //左边丢线
+            //右边丢线
 
+            //处理的行数
+            tline = 4;
+            LeftLineCnt = tline;
+            RightLineCnt = tline;
         }
 
         ///功能:从左向右查找最宽
-        //输入：行，
+        //输入：行
+        //返回：宽度
         public int16_t Guide_MaxWidthBorder(int16_t tline)
         {
             int16_t tpixel, tempwidth, width = 0;
@@ -199,47 +218,48 @@ namespace CameraSimulation
             return width;
 
         }
-        //功能：从中间向两边
-        //输入： 行，中点
-        //返回： 
+        //功能：从中间向两边检测赛道
+        //输入： [行], [中点], 
+        //输出:  [左边界], [右边界]
+        //返回： 中点 
         public int16_t Guide_Center2Board(int16_t tline, int16_t Center)
         {
-            int left, right, center;
+            int16_t left, right, center;
             center = Center;
 
             //向左运算
-            left = center;
-            while (left >= 0 && imagebuff[tline, left] == IMAGE_WHITE)//找黑边
+            left = center +20; //向右偏移
+            while (left >= 0 && imagebuff[tline, left] == IMAGE_WHITE)//黑边跳出
             {
                 left--;
             }
-            while (left >= 0 && imagebuff[tline, left] != IMAGE_WHITE)//判断是否是黑边
-            {                                             //左边界为0跳出
+            while (left >= 0 && imagebuff[tline, left] != IMAGE_BLACK)//判断黑边
+            {                                                        //左边界为0跳出
                 left--;
             }
-            LeftLine[tline] = left + 1;
+            LeftLine[tline] = left +1; //赋值
             //向右运算
-            right = center;
-            while (right <= IMAGE_WIDTH_BAND && imagebuff[tline, right] == IMAGE_WHITE)//找黑边
+            right = center -20; //向左偏移
+            while (right <= IMAGE_WIDTH_BAND && imagebuff[tline, right] == IMAGE_WHITE)//黑边跳出
             {
                 right++;
             }
 
-            while (right <= IMAGE_WIDTH_BAND && imagebuff[tline, right] != IMAGE_WHITE)//判断是否是黑边
+            while (right <= IMAGE_WIDTH_BAND && imagebuff[tline, right] != IMAGE_BLACK)//判断是否是黑边
             {                                                           //右边界为最大跳出
                 right++;
             }
             RightLine[tline] = right - 1;
 
-            center = (left + right);
+            center = (left + right) /2;
 
-            return center;  //   
+            return center;  //  
 
         }
         //功能：检查一行图像在指定范围是否存在全部为指定颜色；
         //输入：[tline]图像行；[Left]左边界;[Right]右边界；[Color]颜色；
         //输出：无；
-        //返回：0：判断失败;1:判断成功;
+        //返回：flase：判断失败;true:判断成功;
         public bool Guide_CheckLine(int16_t tline, int16_t Left, int16_t Right, int16_t Color)
         {
             int16_t tpixel;
@@ -261,6 +281,7 @@ namespace CameraSimulation
         //输入：[begin]数组开始；[end]数组结束；[*p]数组首地址
         //输出：无
         //返回：（float）斜率；
+        //注 ： 行为x, 列为 y
         float Slope_Calculate(int16_t begin, int16_t end, int16_t[] p)    //最小二乘法拟合斜率
         {
             float xsum = 0, ysum = 0, xysum = 0, x2sum = 0;
@@ -280,15 +301,14 @@ namespace CameraSimulation
                 result = ((end - begin) * xysum - xsum * ysum) / ((end - begin) * x2sum - xsum * xsum);
                 resultlast = result;
             }
-            else
+            else  //为零
             {
                 result = resultlast;
             }
             return result;
         }
-
-
-        //泰勒展开式
+        //泰勒展开式  
+        //返回一个数
         private float TaylorLn(float x)
         {
             float ret = 0.0f;
@@ -326,6 +346,7 @@ namespace CameraSimulation
 
             return dis;
         }
+        //
         unsafe private float FastSqrt(float srcNum)
         {
             int i;
