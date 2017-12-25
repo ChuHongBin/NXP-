@@ -17,13 +17,14 @@ namespace CameraSimulation
         const int16_t IMAGE_WIDTH = 80;
         const int16_t IMAGE_HEIGHT = 60;
 
-        public enum SpeedRode
-        {
-            MIX = 0,
-            MID = 1,
-            MIN = 2
-        };
 
+        public enum ImageColor
+        { 
+          Image_ColorRode =0,
+          Image_ColorSide =1,
+        }
+        ImageColor Image_ColorRode = (ImageColor)0;
+        ImageColor Image_ColorSide = (ImageColor)1;
         public enum RodeTypes
         {
             Unknown,
@@ -37,7 +38,13 @@ namespace CameraSimulation
             OutRing,
             Annulus,
         }
-
+        //标志位
+        public struct Prcs
+        {
+            public bool Left ;
+            public bool Right;
+        }
+        Prcs Prc;
         public Bitmap srcImage { get; set; }
         public byte[] ImageData { get; set; }
         public byte[,] ImageDataRect { get; set; }
@@ -61,21 +68,26 @@ namespace CameraSimulation
         public byte IMAGE_BLACK = (byte)0x00;
         public byte IMAGE_WHITE = (byte)0xff;
         public RodeTypes RodeType { get; set; }
-        public byte[,] imagebuff { get; set; }
+        public byte[] tImage { get; set; }
 
         public ImageProc() { }
 
         public ImageProc(Bitmap srcImage)
         {
+            tImage = new byte[IMAGE_HEIGHT * IMAGE_WIDTH / 8];
             this.srcImage = srcImage.Clone(
                 new Rectangle(0, 0, IMAGE_WIDTH, IMAGE_HEIGHT),
                 PixelFormat.Format1bppIndexed);
-
             //生成图像数据
             Image2Data();
-            //图像解压
-            //imagebuff[y,x];
-            img_extract();
+            //复制
+            for (int16_t y = 0; y < 60; y++) 
+            {
+                for (int16_t x = 0; x < 10; x++) 
+                {
+                    tImage[y * 10 + x] = ImageDataRect[y, x];
+                }
+            }
             //边线处理
             UpdateLines();
 
@@ -91,6 +103,7 @@ namespace CameraSimulation
             Marshal.Copy(ImagePtr, ImageByteData, 0, ImageDataLength);
 
             //二维矩阵数据初始化赋值
+            //翻转
             ImageDataRect = new byte[ImageData.Height, ImageData.Width / 8];
             for (int16_t y = 0; y < ImageData.Height; y++)
             {
@@ -102,40 +115,9 @@ namespace CameraSimulation
             }
             srcImage.UnlockBits(ImageData);
         }
-
-        //数组解压
-        public void img_extract()
-        {
-            int16_t bug;
-            imagebuff = new byte[IMAGE_HEIGHT, IMAGE_WIDTH];
-            for (byte y = 0; y < 60; y++)
-            {
-                for (int x = 0; x < 10; x++)
-                {
-                    for (int n = 0; n < 8; n++)
-                    {
-                        bug = ImageDataRect[y, x];
-                        bug = bug >> n;
-                        bug = bug & 0x01;
-                        if (bug == 1)
-                        {
-                            imagebuff[y, (x * 8 + 7 - n)] = IMAGE_WHITE;
-                        }
-                        else
-                        {
-                            imagebuff[y, (x * 8 + 7 - n)] = IMAGE_BLACK;
-                        }
-                    }
-                }
-
-
-            }
-        }
-
-
-
+     
         //图像处理函数
-        //输入：imagebuff
+        //输入：tImage
         //输出：【左边线 LeftLine[]】    【右边线RightLine[]】    【中线MiddleLine[]】
         // LeftLineCnt  RightLineCnt   MiddleLineCnt
         public void UpdateLines()
@@ -143,18 +125,45 @@ namespace CameraSimulation
             int16_t [] Center =new int16_t [5];
             int16_t center = 40;
             int16_t tline = 0;
+            int16_t line = 0;
+           
+            //初始化
             LeftLine = new int16_t [60];
             RightLine = new int16_t [60];
             MiddleLine = new int16_t[60];
-            //预处理
+            //预处理 5行数据
             for (tline = 0; tline < LINES_PRIGUIDE; tline++)
             {
                 Center[tline] = Guide_Center2Board(tline, center);            
             }
-            //预判断
-            //左边丢线
-            //右边丢线
-
+            //预判断  
+            line = 0;
+            while (line < LINES_PRIGUIDE -1) 
+            {
+                //左边丢线
+                if(Prc.Left)
+                {   
+                    int16_t Max = LeftLine[line] > LeftLine[line +1] ? LeftLine[line] - LeftLine[line +1] :  LeftLine[line+1] - LeftLine[line];
+                    if (Max > 3) {
+                        Prc.Left = true;
+                    }
+                }
+                //右边丢线
+                if (Prc.Right)
+                {
+                    int16_t Max = RightLine[line] > RightLine[line + 1] ? RightLine[line] - RightLine[line + 1] : RightLine[line + 1] - RightLine[line];
+                    if (Max > 3) {
+                        Prc.Right = true;
+                    }
+                }
+                //两边都丢线跳出
+                if (Prc.Left && Prc.Right) 
+                {
+                    break;
+                }
+                line++;
+            }                
+            
             //处理的行数
             tline = 4;
             LeftLineCnt = tline;
@@ -174,14 +183,14 @@ namespace CameraSimulation
             while (tpixel < IMAGE_WIDTH)
             {
                 //滤出左侧的黑色
-                while (tpixel <= IMAGE_WIDTH_BAND && imagebuff[tline, tpixel] != IMAGE_WHITE)
+                while (tpixel <= IMAGE_WIDTH_BAND && GetPiexl(tpixel, tline) != ImageColor.Image_ColorSide)
                 {
                     tpixel++;
                 }
                 //白色部分左侧坐标
                 left = tpixel;
                 //开始记录宽度，从第一个白色点开始记录
-                while (tpixel <= IMAGE_WIDTH_BAND && imagebuff[tline, tpixel] == IMAGE_WHITE)
+                while (tpixel <= IMAGE_WIDTH_BAND && GetPiexl(tpixel, tline) == ImageColor.Image_ColorSide)
                 {
                     tpixel++;
                     tempwidth++;
@@ -229,23 +238,23 @@ namespace CameraSimulation
 
             //向左运算
             left = center +20; //向右偏移
-            while (left >= 0 && imagebuff[tline, left] == IMAGE_WHITE)//黑边跳出
+            while (left >= 0 && GetPiexl(left, tline) == ImageColor.Image_ColorSide)//黑边跳出
             {
                 left--;
             }
-            while (left >= 0 && imagebuff[tline, left] != IMAGE_BLACK)//判断黑边
+            while (left >= 0 && GetPiexl(left, tline) != ImageColor.Image_ColorRode)//判断黑边
             {                                                        //左边界为0跳出
                 left--;
             }
             LeftLine[tline] = left +1; //赋值
             //向右运算
             right = center -20; //向左偏移
-            while (right <= IMAGE_WIDTH_BAND && imagebuff[tline, right] == IMAGE_WHITE)//黑边跳出
+            while (right <= IMAGE_WIDTH_BAND && GetPiexl(right, tline) == ImageColor.Image_ColorSide)//黑边跳出
             {
                 right++;
             }
 
-            while (right <= IMAGE_WIDTH_BAND && imagebuff[tline, right] != IMAGE_BLACK)//判断是否是黑边
+            while (right <= IMAGE_WIDTH_BAND && GetPiexl(right, tline) != ImageColor.Image_ColorRode)//判断是否是黑边
             {                                                           //右边界为最大跳出
                 right++;
             }
@@ -256,27 +265,7 @@ namespace CameraSimulation
             return center;  //  
 
         }
-        //功能：检查一行图像在指定范围是否存在全部为指定颜色；
-        //输入：[tline]图像行；[Left]左边界;[Right]右边界；[Color]颜色；
-        //输出：无；
-        //返回：flase：判断失败;true:判断成功;
-        public bool Guide_CheckLine(int16_t tline, int16_t Left, int16_t Right, int16_t Color)
-        {
-            int16_t tpixel;
-
-            //判断
-            for (tpixel = Left; tpixel <= Right; tpixel++)
-            {
-                if (imagebuff[tline, tpixel] != Color)
-                {
-                    return false;
-                }
-            }
-            return true;
-
-
-        }
-
+    
         //功能：最小二乘法拟合斜率
         //输入：[begin]数组开始；[end]数组结束；[*p]数组首地址
         //输出：无
@@ -346,7 +335,7 @@ namespace CameraSimulation
 
             return dis;
         }
-        //
+        //开根号
         unsafe private float FastSqrt(float srcNum)
         {
             int i;
@@ -433,7 +422,7 @@ namespace CameraSimulation
 
             return variance;
         }
-        //两点的距离
+        //向量求COS
         private float VectorCos(Point_t V1, Point_t V2)
         {
             float mCos = (float)(V1.X * V2.X + V1.Y * V2.Y) /
@@ -490,7 +479,43 @@ namespace CameraSimulation
 
             return cs;
         }
+        //取点 
+        ImageColor GetPiexl(int16_t x, int16_t y)
+        {           
+            ImageColor ret = Image_ColorRode; 
+            if ((tImage[y * IMAGE_WIDTH / 8 + x / 8] & (0x80 >> (x % 8))) == 0)
+            {
+                ret = Image_ColorRode;
+            }
+            else
+            {
+                ret = Image_ColorSide;
+            }
 
+        return ret;
+        }
+        //写点
+        void SetPixel(int16_t x, int16_t y, ImageColor col)
+        {
+            if (col == Image_ColorRode)
+            {
+                tImage[y * IMAGE_WIDTH / 8 + x / 8] &= (byte)(~(0x80 >> (x % 8)));
+            }
+            else
+            {
+                tImage[y * IMAGE_WIDTH / 8 + x / 8] |= (byte)(0x80 >> (x % 8));
+            }
+        }
+
+
+
+
+
+
+
+
+
+     //#endif
     }    
 }
 
